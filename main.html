@@ -2,20 +2,42 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>First test website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecteur de musique</title>
     <link rel="stylesheet" href="style_web.css">
 </head>
 <body>
-    <h1>This is my fucking 1st website?</h1>
+    <div class="container">
+        
+        <!-- =====================
+             BARRE LATERALE GAUCHE
+             ===================== -->
+        <nav class="sidebar">
+            <h2>Playlists</h2>
+            <ul>
+                <li id="Favoris">Favoris</li>
+                <li>Rock</li>
+                <li>Lo-Fi</li>
+            </ul>
+        </nav>
 
-    <h2>bah une musique car c le seul truc que je peux faire pour l'instant</h2>
+        <!-- =====================
+             ZONE PRINCIPALE
+             ===================== -->
+        <div class="main-area">
+            
+            <!-- Barre du haut avec recherche -->
+            <header class="topbar">
+                <input type="text" id="search" placeholder="Rechercher...">
+            </header>
 
-    <p>Juste un petit test ci c beau</p>
+            <!-- Contenu principal -->
+            <main class="content">
+                <h1>Lecture en cours ...</h1>
+                <p>Aucune musique sélectionnée</p>
+            </main>
 
-    <audio controls>
-        <source src="https://youtu.be/dQw4w9WgXcQ" type="audio/mpeg">
-        Votre navigateur est con il ne sait pas lire ce fichier audio mp3.
-    </audio>
-
+        </div>
+    </div>
 </body>
 </html>
