@@ -1,13 +1,17 @@
+/* The body of the website (+ fonts?) */
+
 html, body {
     margin: 0;
     padding: 0;
     background-color: #222222; /* Même noir que ta sidebar */
+    font-family: 'Inter', 'Nunito', 'Rubik', 'Roboto', sans-serif;
 }
 
 .container {
     display: flex;
     height: 100vh;
 }
+
 
 /* side bar lookin' */
 
@@ -33,7 +37,7 @@ html, body {
     margin: 4px;
 }
 
-.sidebar ul :not(#Favoris) :hover {
+.sidebar ul :hover {
     color: #8424c9;
 }
 
